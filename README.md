@@ -12,15 +12,16 @@ En esta practica agregaremos una pantalla ```LCD 16x2 I2C``` un ```ultrasonico``
 2. Bajar hasta ``Starter Templates`` y elegir la ``ESP32``
 ![](https://github.com/vicentealexhm-VAHM/Practica-DHT11/blob/main/2.png?raw=true)
 3. Una vez adentro nos vamos a la pestaña que dice ``Library Manager`` y hay buscamos las librerias antes mencionada presionando en el circulo con el simbolo de mas
-![]()
+![](https://github.com/vicentealexhm-VAHM/Practica-DHT-Y-ULTRASONICO/blob/main/librerias.png?raw=true)
 4. Una vez agregadas regresamos a la pestaña de sketch donde agregaremos y conectaremos el ultrasonico, el DHT22 y la lcd a la tarjeta y para agregarlo hacemos click en el circulo azul con el simbolo de mas y lo buscamos como ```DHT22```, ``HC-SR04 Ultrasonic Distance Sensor`` y ``lcd 16x2(l2c)``
 
 ![](https://github.com/vicentealexhm-VAHM/Practica-ULTRASONICO-con-LCD/blob/main/ultrasonico.png?raw=true)
 ![](https://github.com/vicentealexhm-VAHM/Practica-ULTRASONICO-con-LCD/blob/main/lcd.png?raw=true)
+![](https://github.com/vicentealexhm-VAHM/Practica-DHT-Y-ULTRASONICO/blob/main/dht22.png?raw=true)
 
 5. Una vez que lo agregamo realizamos la conexion haciendo click sobre los pines o sobre los puntos amarrillos y lo llebamos a donde lo deceamos conectar
 
-![]()
+![](https://github.com/vicentealexhm-VAHM/Practica-DHT-Y-ULTRASONICO/blob/main/conexiones.png?raw=true)
 
 6. En el sketch colocamos el siguiente codigo:
 
@@ -114,7 +115,8 @@ void loop() {
 ```
 7. Ya que lo tengamos damos click al boton de play para que se inicie el simulador y se podra visualizar las lecturas del ultrsonico y del sensor de temperatura en la pantalla LCD.
 
-![]()
+![](https://github.com/vicentealexhm-VAHM/Practica-ULTRASONICO-con-LCD/blob/main/play.png?raw=true)
+![](https://github.com/vicentealexhm-VAHM/Practica-DHT-Y-ULTRASONICO/blob/main/temp.png?raw=true)
 
 ## Resultados
 Como resultado aprendimos a como visualizar los datos en una pantalla ya sea de cualquier sensor y con el codigo podemos escoger lo que queremos que aparezca en la pantalla y en el orede que deseamos
